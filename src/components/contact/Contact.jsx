@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {TbBrandTelegram} from 'react-icons/tb'
-import {CiFacebook} from 'react-icons/ci'
+// import {CiFacebook} from 'react-icons/ci'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -32,13 +32,13 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>suraj.sulten@gmail.com</h5>
-            <a href="mailto:suraj.sulten@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:suraj.sulten@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className="contact__option">
             <TbBrandTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>suraj_sd</h5>
-            <a href="https://t.me/suraj_sd" target='_blank'>Send a message</a>
+            <a href="https://t.me/suraj_sd" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           {/* <article className="contact__option">
             <CiFacebook className='contact__option-icon'/>
